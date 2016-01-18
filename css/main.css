@@ -17,7 +17,7 @@ body > section,
 .sec-title{}
 .sec-title h2{color:#0eb493;font-size:28px;font-weight:800;text-transform:uppercase;}
 .sec-sub-title{margin:35px 0 45px;}
-.sec-sub-title p{font-weight:600;line-height:24px;font-size:18px;color:#5b646e;}
+.sec-sub-title p{line-height:24px;font-size:18px;color:#5b646e;}
 .devider{margin-top:30px;}
 .devider i{color:#cccccc;}
 .devider:before,
@@ -138,3 +138,6 @@ label.error{color:#c0392b;font-weight:normal;text-transform:capitalize;}
 .product-title-1{font-size:40px;color:#a6ce38 !important;}
 .display-inline{display:inline-block;}
 .padding-15{padding:0 15px;}
+.heading-Crazy{background-color: #ffcb04;color: white;font-size: 18px;padding: 10px 10px;margin-bottom: 5px;}
+.heading-Effitus{background-color: #a6ce38;color: white;font-size: 18px;padding: 10px 10px;margin-bottom: 5px;}
+.font-18{font-size: 18px;}
