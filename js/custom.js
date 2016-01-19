@@ -87,3 +87,6 @@ function initialize() {
   });
 }
 google.maps.event.addDomListener(window, "load", initialize);
+$( "#nav li a" ).click(function() {
+  $(".navbar-collapse").removeClass('in');
+});
