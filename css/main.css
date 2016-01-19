@@ -730,3 +730,13 @@ label.error {
     justify-content: center;
     flex-wrap: wrap;
 }
+.font-1{
+	font-size: 34px;line-height: 1.5;
+}
+.font-2{
+	font-size: 28px;
+	letter-spacing: 2px;line-height: 1.5;
+}
+.font-3{
+	font-size: 24px;
+}
