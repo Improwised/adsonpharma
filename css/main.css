@@ -695,8 +695,10 @@ label.error {
         text-align: center;
     }
     .tagline {
-        margin: 0 20px;
-        margin-top: 200px;
+      margin-top: 175px;
+      font-size: 14px;
+	    letter-spacing: 1px;
+	    line-height: 1.5;
     }
     .img-size {
         width: 50%;
