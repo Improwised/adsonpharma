@@ -624,10 +624,13 @@ label.error {
     font-size: 18px;
 }
 .image-style-doctor {
-    height: 75%;
+    margin-top: 234px;
+    width: 100%;
+    margin-bottom: -5px;
+    /*height: 75%;
     position: fixed;
     bottom: 0;
-    margin-bottom: -5px;
+    margin-bottom: -5px;*/
 }
 .tagline {
     margin-top: 50%;
@@ -662,6 +665,9 @@ label.error {
     .padding-container {
         padding-top: 110px;
     }
+    .image-style-doctor {
+        margin-top: 181px;
+    }
 }
 @media (max-width: 991px) {
     .item {
@@ -679,6 +685,9 @@ label.error {
     }
     .styleText {
         font-size: 45px;
+    }
+    .image-style-doctor {
+        margin-top: 133px;
     }
 }
 .img-size {
