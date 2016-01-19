@@ -41,7 +41,7 @@
           <!-- media-queries -->
           <link rel="stylesheet" href="css/media-queries.css">
         </head>
-        <body id="body">
+        <body id="home">
           <!-- 
             Fixed Navigation
             ==================================== -->
@@ -57,7 +57,8 @@
                 <!-- logo -->
                 <a class="navbar-brand" href="/adsonpharma">
                   <h1 id="logo">
-                  	<img src="img/logo111.png" id="Logo" height="50px">
+                    <img src="img/logo111.png" id="Logo" height="50px">
+                    <span class="logo-text">dson Pharma</span>
                     <!-- <img src="img/logo.png" alt="Brandi"> -->
                   </h1>
                 </a>
@@ -66,7 +67,7 @@
               <!-- main nav -->
               <nav class="collapse navbar-collapse navbar-right" role="navigation">
                 <ul id="nav" class="nav navbar-nav">
-                  <li class="current"><a href="#body">Home</a></li>
+                  <li class="current"><a href="#home">Home</a></li>
                   <li><a href="#AboutUs">About us</a></li>
                   <li><a href="#Mission_Vision">Mission & Vision</a></li>
                   <li><a href="#OurProducts">Our Products</a></li>
@@ -88,62 +89,69 @@
               <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
               </ol>
-              <!-- End Indicators bullet -->				
+              <!-- End Indicators bullet -->        
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <!-- single slide -->
-
                 <div class="item active" style="background-image: url(img/bk.png);">
-                	<div class="container">
-
-                		<div class="imagePlustext">
-                			<div><img src="img/cravy.png" class="image-style"></div>
-                			<div>
-                				<div class="EffitusHerbal">
-                					Now Feel <br/>
-                					the <span class="styleText">Hunger</span> <br/>
-                					with Cravy ........
-                				</div>
-                				<!-- <img src="img/hunger.png" class="text-hunger"> -->
-                				<br/><br/>
-                				<img src="img/cravy-text.png" class="image-style-text">
-                				<br/><br/>
-                				<img src="img/100.png" class='image-100'>
-                			</div>
-                		</div>
-
-                	</div>
-                	<!-- <div class="text-center">
-                		<img src="img/Layer.png" class="image-style">
-                	</div> -->
+                  <div class="container">
+                    <div class="col-sm-8">
+                      <h1 class="tagline">Provides a comprehensive range of safe, high-quality products, with science of Ayurveda & Herbal.</h1>
+                    </div>
+                    <div class="col-sm-4 hidden-xs">
+                      <img src="img/doctor.png" class="image-style-doctor">
+                    </div>
+                  </div>
+                  <!-- <div class="text-center">
+                    <img src="img/Layer.png" class="image-style">
+                    </div> -->
                 </div>
                 <div class="item" style="background-image: url(img/bk.png);">
-
-                	<div class="container">
-
-                		<div class="imagePlustext">
-                			<div><img src="img/effitus.png" class="image-style"></div>
-                			<div>
-                				<div class="EffitusHerbal">
-                					Now No More<br/>
-                					<span class="styleText">Cough</span>
-                					& <span class="styleText">cold</span> with<br/> 
-                					Effitus ........
-                				</div>
-                				<br/><br/>
-                				<img src="img/cravy-text.png" class="image-style-text">
-                				<br/><br/>
-                				<img src="img/100.png" class='image-100'>
-                			</div>
-                		</div>
-                		
-                	</div>
-                	<!-- <div class="text-center">
-                		<img src="img/Layer1.png" class="image-style">
-                	</div> -->
+                  <div class="container padding-container">
+                    <div class="col-sm-offset-2 col-sm-4">
+                      <img src="img/cravy.png" class="image-style">
+                    </div>
+                    <div class="col-sm-6 hidden-xs">
+                      <div class="EffitusHerbal">
+                        Now Feel <br/>
+                        the <span class="styleText">Hunger</span> <br/>
+                        with Cravy ........
+                      </div>
+                      <!-- <img src="img/hunger.png" class="text-hunger"> -->
+                      <br/><br/>
+                      <img src="img/cravy-text.png" class="image-style-text">
+                      <br/><br/>
+                      <img src="img/100.png" class='image-100'>  
+                    </div>
+                  </div>
+                  <!-- <div class="text-center">
+                    <img src="img/Layer.png" class="image-style">
+                    </div> -->
                 </div>
-
+                <div class="item" style="background-image: url(img/bk.png);">
+                  <div class="container padding-container">
+                    <div class="col-sm-offset-2 col-sm-4">
+                      <img src="img/effitus.png" class="image-style">
+                    </div>
+                    <div class="col-sm-6 hidden-xs">
+                      <div class="EffitusHerbal">
+                        Now No More<br/>
+                        <span class="styleText">Cough</span>
+                        & <span class="styleText">cold</span> with<br/> 
+                        Effitus ........
+                      </div>
+                      <br/><br/>
+                      <img src="img/cravy-text.png" class="image-style-text">
+                      <br/><br/>
+                      <img src="img/100.png" class='image-100'>
+                    </div>
+                  </div>
+                  <!-- <div class="text-center">
+                    <img src="img/Layer1.png" class="image-style">
+                    </div> -->
+                </div>
                 <!-- <div class="item active" style="background-image: url(img/banner.jpg);">
                   <div class="carousel-caption">
                     <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Brandi</span>!</h2>
@@ -156,7 +164,7 @@
                       <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
                     </ul>
                   </div>
-                </div> -->
+                  </div> -->
                 <!-- end single slide -->
                 <!-- single slide -->
                 <!-- <div class="item" style="background-image: url(img/banner.jpg);">
@@ -171,10 +179,18 @@
                       <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
                     </ul>
                   </div>
-                </div> -->
+                  </div> -->
                 <!-- end single slide -->
               </div>
               <!-- End Wrapper for slides -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+              </a>
             </div>
           </section>
           <!--
@@ -185,15 +201,14 @@
             ==================================== -->
           <section id="AboutUs" class="features">
             <div class="container">
-            	<div class="row">
-
-	            	<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-	                <h2>About Us</h2>
-	                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-	              </div>
-	              <div class="sec-sub-title text-center">
-	                <p>Adson’s Story began with its founder Vaidya Abhay Dhami, Practising a Ayurveda from last 40 years. A wide experience and expertise of Vaidya Abhay Dhami passing the unique formulations to his next generation.</p>
-	              </div>
+              <div class="row">
+                <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                  <h2>About Us</h2>
+                  <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                </div>
+                <div class="sec-sub-title text-center">
+                  <p>Adson’s Story began with its founder Vaidya Abhay Dhami, Practising a Ayurveda from last 40 years. A wide experience and expertise of Vaidya Abhay Dhami passing the unique formulations to his next generation.</p>
+                </div>
                 <!-- end service item -->
                 <!-- service item -->
                 <!-- <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
@@ -206,7 +221,7 @@
                       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                     </div>
                   </div>
-                </div> -->
+                  </div> -->
                 <!-- end service item -->
                 <!-- service item -->
                 <!-- <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
@@ -219,7 +234,7 @@
                       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                     </div>
                   </div>
-                </div> -->
+                  </div> -->
                 <!-- end service item -->
               </div>
             </div>
@@ -238,32 +253,32 @@
                   <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
                 </div>
                 <div class="sec-sub-title">
-	                <!-- end service item -->
-	                <!-- service item -->
-	                <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-	                  <div class="service-item">
-	                    <div class="service-icon">
-	                      <i class="fa fa-pencil fa-2x"></i>
-	                    </div>
-	                    <div class="service-desc">
-	                      <h3>Mission</h3>
-	                      <p>The mission of Adson Pharma is to provide a comprehensive range of safe, high-quality products, with science of Ayurveda & Herbal.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <!-- end service item -->
-	                <!-- service item -->
-	                <div class="col-md-6 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
-	                  <div class="service-item">
-	                    <div class="service-icon">
-	                      <i class="fa fa-bullhorn fa-2x"></i>
-	                    </div>
-	                    <div class="service-desc">
-	                      <h3>Vision</h3>
-	                      <p>A superior quality products with higher efficacy to serve the excellence to mankind.</p>
-	                    </div>
-	                  </div>
-	                </div>
+                  <!-- end service item -->
+                  <!-- service item -->
+                  <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+                    <div class="service-item">
+                      <div class="service-icon">
+                        <i class="fa fa-pencil fa-2x"></i>
+                      </div>
+                      <div class="service-desc">
+                        <h3>Mission</h3>
+                        <p>The mission of Adson Pharma is to provide a comprehensive range of safe, high-quality products, with science of Ayurveda & Herbal.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end service item -->
+                  <!-- service item -->
+                  <div class="col-md-6 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
+                    <div class="service-item">
+                      <div class="service-icon">
+                        <i class="fa fa-bullhorn fa-2x"></i>
+                      </div>
+                      <div class="service-desc">
+                        <h3>Vision</h3>
+                        <p>A superior quality products with higher efficacy to serve the excellence to mankind.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <!-- end service item -->
                 <!-- <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
@@ -274,16 +289,9 @@
                     <li><a href="javascript:;" data-filter=".logo-design" class="filter">logo design</a></li>
                     <li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
                   </ul>
-                </div> -->
-
-                
-
-
-
-
-
+                  </div> -->
               </div>
-            </div>       
+            </div>
             <!-- <div class="project-wrapper">
               <figure class="mix work-item branding">
                 <img src="img/works/item-1.jpg" alt="">
@@ -349,14 +357,14 @@
                   <p>Photography</p>
                 </figcaption>
               </figure>
-            </div> -->
+              </div> -->
           </section>
           <!--
             End Our Works
             ==================================== -->
           <!--
             Meet Our Team
-            ==================================== -->		
+            ==================================== -->    
           <section id="OurProducts" class="team">
             <div class="container">
               <div class="row">
@@ -383,50 +391,43 @@
                   </div>
                   <h4>John Filmr Doe</h4>
                   <span>Managing Director</span>
-                </figure> -->
+                  </figure> -->
                 <!-- end single member -->
                 <!-- single member -->
-                <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                  <div class="member-thumb">
-                    <img src="img/eff-logo.png" alt="Team Member" class="img-responsive">
-                    <figcaption class="overlay">
-                      <h5>Effitus Herbal Cough Syrup</h5>
-                      <p>Enriched with Honey</p>
-                      <br>
-                      <p>Effitus Herbal Cough Syrup Clinically Proven Formulation for Cough & Cold with highest effectivity in different kinds of cough problems like Dry Cough, Seasonal Cough, Allergic Cough & Smoker’s Cough.</p>
-                      <br>
-                      <div class="text-center">
-                      	<a href="effitus.html" class="gourl"><i class="fa fa-paper-plane"></i></a>
-                      </div>
-                    </figcaption>
+                <div class="flex">
+                  <div class="team-member text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="member-thumb">
+                      <img src="img/eff-logo.png" alt="Team Member" class="img-responsive">
+                      <a href="effitus.html" class="product-anchor-link">
+                        <figcaption class="overlay">
+                          <h5>Effitus Herbal Cough Syrup</h5>
+                          <p>Enriched with Honey</p>
+                          <br>
+                          <p>Effitus Herbal Cough Syrup Clinically Proven Formulation for Cough & Cold with highest effectivity in different kinds of cough problems like Dry Cough, Seasonal Cough, Allergic Cough & Smoker’s Cough.</p>
+                        </figcaption>
+                      </a>
+                    </div>
+                    <h4>Effitus Herbal Cough Syrup</h4>
+                    <span>Enriched with Honey</span>
                   </div>
-                  <h4>Effitus Herbal Cough Syrup</h4>
-                  <span>Enriched with Honey</span>
-                </figure>
-                <!-- end single member -->
-                <!-- single member -->
-                <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                  <div class="member-thumb">
-                    <img src="img/cravy-logo.png" alt="Team Member" class="img-responsive">
-                    <figcaption class="overlay">
-                      <h5>Cravy Syrup</h5>
-                      <p>Herbal Appetizer</p>
-                      <br>
-                      <p>Cravy herbal Appetiser is a very unique & rare formulation of its kind it is highly effective in case of loss appetite it regularise the digestion.</p>
-                      <br>
-                      <div class="text-center">
-                      	<a href="cravy.html" class="gourl"><i class="fa fa-paper-plane"></i></a>
-                      </div>
-                      <!-- <ul class="social-links text-center">
-                        <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                      </ul> -->
-                    </figcaption>
+                  <!-- end single member -->
+                  <!-- single member -->
+                  <div class="team-member text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="member-thumb">
+                      <img src="img/cravy-logo.png" alt="Team Member" class="img-responsive">
+                      <a href="cravy.html" class="product-anchor-link">
+                        <figcaption class="overlay">
+                          <h5>Cravy Syrup</h5>
+                          <p>Herbal Appetizer</p>
+                          <br>
+                          <p>Cravy herbal Appetiser is a very unique & rare formulation of its kind it is highly effective in case of loss appetite it regularise the digestion.</p>
+                        </figcaption>
+                      </a>
+                    </div>
+                    <h4>Cravy Syrup</h4>
+                    <span>Herbal Appetizer</span>
                   </div>
-                  <h4>Cravy Syrup</h4>
-                  <span>Herbal Appetizer</span>
-                </figure>
+                </div>
                 <!-- end single member -->
                 <!-- single member -->
                 <!-- <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
@@ -444,7 +445,7 @@
                   </div>
                   <h4>John Filmr Doe</h4>
                   <span>Managing Director</span>
-                </figure> -->
+                  </figure> -->
                 <!-- end single member -->
               </div>
             </div>
@@ -454,7 +455,7 @@
             ==================================== -->
           <!--
             Some fun facts
-            ==================================== -->		
+            ==================================== -->    
           <!-- <section id="facts" class="facts">
             <div class="parallax-overlay">
               <div class="container">
@@ -463,50 +464,50 @@
                     <h2>Some Fun Facts</h2>
                     <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
                   </div> -->
-                  <!-- first count item -->
-                  <!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-                    <div class="counters-item">
-                      <i class="fa fa-clock-o fa-3x"></i>
-                      <strong data-to="3200">0</strong> -->
-                      <!-- Set Your Number here. i,e. data-to="56" -->
-                      <!-- <p>Hours of Work</p>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="counters-item">
-                      <i class="fa fa-users fa-3x"></i>
-                      <strong data-to="120">0</strong> -->
-                      <!-- Set Your Number here. i,e. data-to="56" -->
-                      <!-- <p>Satisfied Clients</p>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                    <div class="counters-item">
-                      <i class="fa fa-rocket fa-3x"></i>
-                      <strong data-to="360">0</strong> -->
-                      <!-- Set Your Number here. i,e. data-to="56" -->
-                      <!-- <p> Projects Delivered </p>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                    <div class="counters-item">
-                      <i class="fa fa-trophy fa-3x"></i>
-                      <strong data-to="6454">0</strong> -->
-                      <!-- Set Your Number here. i,e. data-to="56" -->
-                      <!-- <p>Awards Won</p>
-                    </div>
-                  </div> -->
-                  <!-- end first count item -->
-                <!-- </div>
-              </div>
+          <!-- first count item -->
+          <!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <div class="counters-item">
+              <i class="fa fa-clock-o fa-3x"></i>
+              <strong data-to="3200">0</strong> -->
+          <!-- Set Your Number here. i,e. data-to="56" -->
+          <!-- <p>Hours of Work</p>
             </div>
-          </section> -->
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+            <div class="counters-item">
+              <i class="fa fa-users fa-3x"></i>
+              <strong data-to="120">0</strong> -->
+          <!-- Set Your Number here. i,e. data-to="56" -->
+          <!-- <p>Satisfied Clients</p>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+            <div class="counters-item">
+              <i class="fa fa-rocket fa-3x"></i>
+              <strong data-to="360">0</strong> -->
+          <!-- Set Your Number here. i,e. data-to="56" -->
+          <!-- <p> Projects Delivered </p>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+            <div class="counters-item">
+              <i class="fa fa-trophy fa-3x"></i>
+              <strong data-to="6454">0</strong> -->
+          <!-- Set Your Number here. i,e. data-to="56" -->
+          <!-- <p>Awards Won</p>
+            </div>
+            </div> -->
+          <!-- end first count item -->
+          <!-- </div>
+            </div>
+            </div>
+            </section> -->
           <!--
             End Some fun facts
             ==================================== -->
           <!--
             Contact Us
-            ==================================== -->		
+            ==================================== -->    
           <section id="contact" class="contact">
             <div class="container">
               <div class="row mb50">
@@ -518,14 +519,15 @@
                   <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p> -->
                 </div>
                 <!-- contact address -->
-                <div class="col-sm-offset-4 col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+                <div class="col-xs-12 wow fadeInLeft animated text-center" data-wow-duration="500ms">
                   <div class="contact-address">
                     <h3>Adson Pharma</h3>
                     <p>“Dhami Niwas” </p>
-										<p>38, Karanpara, Kishor Shinji Main Road,</p>
-										<p>Rajkot – 360 001 Gujarat India.</p>
-										<p>Email : adsonpharma14@gmail.com</p>
-										<p>Phone : +91 8511699499</p>
+                    <p>38, Karanpara, Kishor Shinji Main Road,</p>
+                    <p>Rajkot – 360 001,</p>
+                    <p>Gujarat,India.</p>
+                    <p>Email : <a href="mailto:adsonpharma14@gmail.com">adsonpharma14@gmail.com</a></p>
+                    <p>Phone : <a href="tel:+91 8511699499">+91 8511699499</a></p>
                   </div>
                 </div>
                 <!-- end contact address -->
@@ -550,14 +552,14 @@
                       </div>
                     </form>
                   </div>
-                </div> -->
+                  </div> -->
                 <!-- end contact form -->
                 <!-- footer social links -->
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                <div class="col-xs-12 wow fadeInRight animated text-center" data-wow-duration="500ms" data-wow-delay="600ms">
                   <ul class="footer-social">
-                    <li><a href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                    <li><a href=""><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-                    <li><a href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-facebook-square fa-3x"></i></a></li>
+                    <li><a href=""><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter-square fa-3x"></i></a></li>
                   </ul>
                 </div>
                 <!-- end footer social links -->
@@ -611,7 +613,7 @@
                     </ul>
                   </div>
                 </div>
-              </div> -->
+                </div> -->
               <div class="row">
                 <div class="col-md-12">
                   <p class="copyright text-center">
@@ -621,7 +623,7 @@
               </div>
             </div>
           </footer>
-          <a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+          <a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x" style="color:black"></i></a>
           <!-- Essential jQuery Plugins
             ================================================== -->
           <!-- Main jQuery -->
@@ -651,11 +653,11 @@
           <script src="js/wow.min.js"></script>
           <script>
             var wow = new WOW ({
-            	boxClass:     'wow',      // animated element css class (default is wow)
-            	animateClass: 'animated', // animation css class (default is animated)
-            	offset:       120,          // distance to the element when triggering the animation (default is 0)
-            	mobile:       false,       // trigger animations on mobile devices (default is true)
-            	live:         true        // act on asynchronously loaded content (default is true)
+              boxClass:     'wow',      // animated element css class (default is wow)
+              animateClass: 'animated', // animation css class (default is animated)
+              offset:       120,          // distance to the element when triggering the animation (default is 0)
+              mobile:       false,       // trigger animations on mobile devices (default is true)
+              live:         true        // act on asynchronously loaded content (default is true)
               }
             );
             wow.init();
@@ -666,58 +668,58 @@
           <script src="js/modernizr-2.6.2.min.js"></script>
           <script type="text/javascript">
             $(function(){
-            	/* ========================================================================= */
-            	/*	Contact Form
-            	/* ========================================================================= */
-            	
-            	$('#contact-form').validate({
-            		rules: {
-            			name: {
-            				required: true,
-            				minlength: 2
-            			},
-            			email: {
-            				required: true,
-            				email: true
-            			},
-            			message: {
-            				required: true
-            			}
-            		},
-            		messages: {
-            			name: {
-            				required: "come on, you have a name don't you?",
-            				minlength: "your name must consist of at least 2 characters"
-            			},
-            			email: {
-            				required: "no email, no message"
-            			},
-            			message: {
-            				required: "um...yea, you have to write something to send this form.",
-            				minlength: "thats all? really?"
-            			}
-            		},
-            		submitHandler: function(form) {
-            			$(form).ajaxSubmit({
-            				type:"POST",
-            				data: $(form).serialize(),
-            				url:"process.php",
-            				success: function() {
-            					$('#contact-form :input').attr('disabled', 'disabled');
-            					$('#contact-form').fadeTo( "slow", 0.15, function() {
-            						$(this).find(':input').attr('disabled', 'disabled');
-            						$(this).find('label').css('cursor','default');
-            						$('#success').fadeIn();
-            					});
-            				},
-            				error: function() {
-            					$('#contact-form').fadeTo( "slow", 0.15, function() {
-            						$('#error').fadeIn();
-            					});
-            				}
-            			});
-            		}
-            	});
+              /* ========================================================================= */
+              /*  Contact Form
+              /* ========================================================================= */
+              
+              $('#contact-form').validate({
+                rules: {
+                  name: {
+                    required: true,
+                    minlength: 2
+                  },
+                  email: {
+                    required: true,
+                    email: true
+                  },
+                  message: {
+                    required: true
+                  }
+                },
+                messages: {
+                  name: {
+                    required: "come on, you have a name don't you?",
+                    minlength: "your name must consist of at least 2 characters"
+                  },
+                  email: {
+                    required: "no email, no message"
+                  },
+                  message: {
+                    required: "um...yea, you have to write something to send this form.",
+                    minlength: "thats all? really?"
+                  }
+                },
+                submitHandler: function(form) {
+                  $(form).ajaxSubmit({
+                    type:"POST",
+                    data: $(form).serialize(),
+                    url:"process.php",
+                    success: function() {
+                      $('#contact-form :input').attr('disabled', 'disabled');
+                      $('#contact-form').fadeTo( "slow", 0.15, function() {
+                        $(this).find(':input').attr('disabled', 'disabled');
+                        $(this).find('label').css('cursor','default');
+                        $('#success').fadeIn();
+                      });
+                    },
+                    error: function() {
+                      $('#contact-form').fadeTo( "slow", 0.15, function() {
+                        $('#error').fadeIn();
+                      });
+                    }
+                  });
+                }
+              });
             });
           </script>
         </body>

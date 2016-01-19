@@ -36,6 +36,7 @@
 .footer-social li{display:inline-block;}
 .footer-social li a{margin:0 10px;}
 .footer-single{margin-bottom:30px;}
+.navbar-brand {padding: 6px;}
 }
 @media only screen and (min-width:480px) and (max-width:767px){.service-item{margin:0 auto 30px;text-align:center;width:325px;}
 .service-icon{float:none;margin:0 auto 15px;text-align:center;width:50px;}
