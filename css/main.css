@@ -600,6 +600,10 @@ label.error {
     font-size: 40px;
     color: #a6ce38 !important;
 }
+.product-title-3 {
+    font-size: 40px;
+    color: #00adef !important;
+}
 .display-inline {
     display: inline-block;
 }
@@ -615,6 +619,13 @@ label.error {
 }
 .heading-Effitus {
     background-color: #a6ce38;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+}
+.heading-Effitus-CR {
+    background-color: #00adef;
     color: white;
     font-size: 18px;
     padding: 10px 10px;

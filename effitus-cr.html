@@ -32,6 +32,8 @@
           <link rel="stylesheet" href="css/font-awesome.min.css">
           <!-- Twitter Bootstrap css -->
           <link rel="stylesheet" href="css/bootstrap.min.css">
+          <!-- jquery.fancybox  -->
+          <link rel="stylesheet" href="css/jquery.fancybox.css">
           <!-- animate -->
           <link rel="stylesheet" href="css/animate.css">
           <!-- Main Stylesheet -->
@@ -39,7 +41,7 @@
           <!-- media-queries -->
           <link rel="stylesheet" href="css/media-queries.css">
         </head>
-        <body id="home">
+        <body id="body">
           <!-- 
             Fixed Navigation
             ==================================== -->
@@ -63,9 +65,6 @@
               <!-- main nav -->
               <nav class="collapse navbar-collapse navbar-right" role="navigation">
                 <ul id="nav" class="nav navbar-nav">
-                  <li class="current"><a href="#home">Home</a></li>
-                  <li><a href="#AboutUs">About us</a></li>
-                  <li><a href="#Mission_Vision">Mission & Vision</a></li>
                   <li><a href="#OurProducts">Our Products</a></li>
                   <li><a href="#contact">Contact Us</a></li>
                 </ul>
@@ -77,147 +76,84 @@
             End Fixed Navigation
             ==================================== -->
           <!--
-            Home Slider
-            ==================================== -->
-          <section id="slider">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators bullet -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              </ol>
-              <!-- End Indicators bullet -->        
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <!-- single slide -->
-                <div class="item active" style="background-image: url(img/bk.jpg);">
-                  <div class="container">
-                    <div class="col-sm-8">
-                      <h1 class="tagline">Provides a comprehensive range of safe, high-quality products, with science of Ayurveda & Herbal.</h1>
-                    </div>
-                    <div class="col-sm-4 hidden-xs">
-                      <img src="img/doctor.png" class="image-style-doctor">
-                    </div>
-                  </div>
-                  <!-- <div class="text-center">
-                    <img src="img/Layer.png" class="image-style">
-                    </div> -->
-                </div>
-                <div class="item" style="background-image: url(img/bk.jpg);">
-                  <div class="container padding-container">
-                    <div class="col-sm-offset-2 col-sm-4">
-                      <img src="img/cravy.png" class="image-style">
-                    </div>
-                    <div class="col-sm-6 hidden-xs">
-                      <div class="EffitusHerbal">
-                        Now Feel <br/>
-                        the <span class="styleText">Hunger</span> <br/>
-                        with Cravy ........
-                      </div>
-                      <!-- <img src="img/hunger.png" class="text-hunger"> -->
-                      <br/><br/>
-                      <div class="color-black">
-                        <span class="font-1"><strong>Doctor’s</strong></span><br>
-                        <span class="font-2">Proven Formulation</span><br>
-                        <span class="font-3">
-                          clinically tested<br>
-                          & safe in nature
-                        </span>                        
-                      </div>
-                      <br/><br/>
-                      <img src="img/100.png" class='image-100'>  
-                    </div>
-                  </div>
-                  <!-- <div class="text-center">
-                    <img src="img/Layer.png" class="image-style">
-                    </div> -->
-                </div>
-                <div class="item" style="background-image: url(img/bk.jpg);">
-                  <div class="container padding-container">
-                    <div class="col-sm-offset-2 col-sm-4">
-                      <img src="img/effitus.png" class="image-style">
-                    </div>
-                    <div class="col-sm-6 hidden-xs">
-                      <div class="EffitusHerbal">
-                        Now No More<br/>
-                        <span class="styleText">Cough</span>
-                        & <span class="styleText">cold</span> with<br/> 
-                        Effitus ........
-                      </div>
-                      <br/><br/>
-                      <div class="color-black">
-                        <span class="font-1"><strong>Doctor’s</strong></span><br>
-                        <span class="font-2">Proven Formulation</span><br>
-                        <span class="font-3">
-                          clinically tested<br>
-                          & safe in nature
-                        </span>                        
-                      </div>
-                      <br/><br/>
-                      <img src="img/100.png" class='image-100'>
-                    </div>
-                  </div>
-                  <!-- <div class="text-center">
-                    <img src="img/Layer1.png" class="image-style">
-                    </div> -->
-                </div>
-                <!-- <div class="item active" style="background-image: url(img/banner.jpg);">
-                  <div class="carousel-caption">
-                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Brandi</span>!</h2>
-                    <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
-                    <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
-                    <ul class="social-links text-center">
-                      <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                      <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                      <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                      <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-                    </ul>
-                  </div>
-                  </div> -->
-                <!-- end single slide -->
-                <!-- single slide -->
-                <!-- <div class="item" style="background-image: url(img/banner.jpg);">
-                  <div class="carousel-caption">
-                    <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2>
-                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
-                    <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
-                    <ul class="social-links text-center">
-                      <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                      <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                      <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                      <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-                    </ul>
-                  </div>
-                  </div> -->
-                <!-- end single slide -->
-              </div>
-              <!-- End Wrapper for slides -->
-              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </section>
-          <!--
-            End Home SliderEnd
-            ==================================== -->
-          <!--
             Features
             ==================================== -->
-          <section id="AboutUs" class="features">
+          <section>
             <div class="container">
               <div class="row">
                 <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-                  <h2>About Us</h2>
+                  <h2 class="product-title-3">Effitus-CR herbal Cough syrup</h2>
                   <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
                 </div>
-                <div class="sec-sub-title text-center">
-                  <p>Adson’s Story began with its founder Vaidya Abhay Dhami, Practising a Ayurveda from last 40 years. A wide experience and expertise of Vaidya Abhay Dhami passing the unique formulations to his next generation.</p>
+                <div class="sec-sub-title">
+                  <div class="clearfix">
+                    <div class="col-sm-4 center"><img src="img/effitusCrBottle.png" class="img-size"></div>
+                    <div class="col-sm-8">
+                      <p>Effitus-CR herbal Cough syrup is clinically proven formulation for cough and cold with highest effectivity in different kind of cough problems like productive cough,allergic cough. Effitus-CR also provides expectorant effect and relieves chest congestion.</p>
+                      <br>
+                      <p>Effitus-CR herbal cough syrup contains established and highly proven herbal cough remedies like <strong>Vasaka, Tulsi, Yashtimadhu, Haldi, Pippali & Sunthi</strong> that to in Very rich concentration which provides Antiviral, Antitussive activity with Mucolytic & Mucokinetic actions, which helps to expel the cough.</p>
+                      <br>
+                      <p>Other components like,</p>
+                      <table class="table font-18">
+                        <tbody>
+                          <tr>
+                            <td><strong>Marsch : </strong></td>
+                            <td>Effective against congestion</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Ajowain : </strong></td>
+                            <td>Effective as anti-tussive.</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Saindhav : </strong></td>
+                            <td>Highly effective as mucolytic & mucokinetic</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Pushkarmoola : </strong></td>
+                            <td>Relieves cough & chest congestion</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Nagarvel :</strong></td>
+                            <td>Act as a expectorant</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Taj : </strong></td>
+                            <td>Effective against common cold</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <p>Effitus-CR herbal cough syrup is 100% safe, Non-Habit forming,Non-alcoholic,No drowsiness formula.</p>
+                      <br>
+                      <p>Effitus-CR herbal cough syrup available in delicious mint flavour taste.</p>
+                      <br>
+                      <div class="heading-Effitus-CR">
+                        Indication
+                      </div>
+                      <p>
+                        Effitus-CR herbal cough syrup provides soothing effect in<br>
+                        * Productive Cough <br>
+                        * Allergic Cough<br>
+                         * Chest Congestion
+                      </p>
+                      <br>
+                      <div class="heading-Effitus-CR">
+                        Dosage
+                      </div>
+                      <p>
+                        <strong>Adults</strong> : 2 teaspoonful (10ml) 3-4 times a Day<br>
+                        <strong>Children</strong> : 1 teaspoonful (5ml) 3-4 times a Day<br>
+                        Or as per directed by the Physician
+                      </p>
+                      <br>
+                      <div class="heading-Effitus-CR">
+                        Presentation
+                      </div>
+                      <p>
+                        * 100ml syrup in PET bottle with outer Carton.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <!-- end service item -->
                 <!-- service item -->
@@ -253,128 +189,8 @@
             End Features
             ==================================== -->
           <!--
-            Our Works
-            ==================================== -->
-          <section id="Mission_Vision" class="works clearfix">
-            <div class="container">
-              <div class="row">
-                <div class="sec-title text-center">
-                  <h2>Mission & Vision</h2>
-                  <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-                </div>
-                <div class="sec-sub-title">
-                  <!-- end service item -->
-                  <!-- service item -->
-                  <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-                    <div class="service-item">
-                      <div class="service-icon">
-                        <i class="fa fa-pencil fa-2x"></i>
-                      </div>
-                      <div class="service-desc">
-                        <h3>Mission</h3>
-                        <p>The mission of Adson Pharma is to provide a comprehensive range of safe, high-quality products, with science of Ayurveda & Herbal.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end service item -->
-                  <!-- service item -->
-                  <div class="col-md-6 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
-                    <div class="service-item">
-                      <div class="service-icon">
-                        <i class="fa fa-bullhorn fa-2x"></i>
-                      </div>
-                      <div class="service-desc">
-                        <h3>Vision</h3>
-                        <p>A superior quality products with higher efficacy to serve the excellence to mankind.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- end service item -->
-                <!-- <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-                  <ul class="text-center">
-                    <li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-                    <li><a href="javascript:;" data-filter=".branding" class="filter">Branding</a></li>
-                    <li><a href="javascript:;" data-filter=".web" class="filter">web</a></li>
-                    <li><a href="javascript:;" data-filter=".logo-design" class="filter">logo design</a></li>
-                    <li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
-                  </ul>
-                  </div> -->
-              </div>
-            </div>
-            <!-- <div class="project-wrapper">
-              <figure class="mix work-item branding">
-                <img src="img/works/item-1.jpg" alt="">
-                <figcaption class="overlay">
-                  <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-                  <h4>Labore et dolore magnam</h4>
-                  <p>Photography</p>
-                </figcaption>
-              </figure>
-              <figure class="mix work-item web">
-                <img src="img/works/item-2.jpg" alt="">
-                <figcaption class="overlay">
-                  <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-                  <h4>Labore et dolore magnam</h4>
-                  <p>Photography</p>
-                </figcaption>
-              </figure>
-              <figure class="mix work-item logo-design">
-                <img src="img/works/item-3.jpg" alt="">
-                <figcaption class="overlay">
-                  <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-                  <h4>Labore et dolore magnam</h4>
-                  <p>Photography</p>
-                </figcaption>
-              </figure>
-              <figure class="mix work-item photography">
-                <img src="img/works/item-4.jpg" alt="">
-                <figcaption class="overlay">
-                  <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-                  <h4>Labore et dolore magnam</h4>
-                  <p>Photography</p>
-                </figcaption>
-              </figure>
-              <figure class="mix work-item branding">
-                <img src="img/works/item-5.jpg" alt="">
-                <figcaption class="overlay">
-                  <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-                  <h4>Labore et dolore magnam</h4>
-                  <p>Photography</p>
-                </figcaption>
-              </figure>
-              <figure class="mix work-item web">
-                <img src="img/works/item-6.jpg" alt="">
-                <figcaption class="overlay">
-                  <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-                  <h4>Labore et dolore magnam</h4>
-                  <p>Photography</p>
-                </figcaption>
-              </figure>
-              <figure class="mix work-item logo-design">
-                <img src="img/works/item-7.jpg" alt="">
-                <figcaption class="overlay">
-                  <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-                  <h4>Labore et dolore magnam</h4>
-                  <p>Photography</p>
-                </figcaption>
-              </figure>
-              <figure class="mix work-item photography">
-                <img src="img/works/item-8.jpg" alt="">
-                <figcaption class="overlay">
-                  <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
-                  <h4>Labore et dolore magnam</h4>
-                  <p>Photography</p>
-                </figcaption>
-              </figure>
-              </div> -->
-          </section>
-          <!--
-            End Our Works
-            ==================================== -->
-          <!--
             Meet Our Team
-            ==================================== -->    
+            ==================================== -->
           <section id="OurProducts" class="team">
             <div class="container">
               <div class="row">
@@ -481,7 +297,7 @@
             ==================================== -->
           <!--
             Some fun facts
-            ==================================== -->    
+            ==================================== -->
           <!-- <section id="facts" class="facts">
             <div class="parallax-overlay">
               <div class="container">
@@ -533,7 +349,7 @@
             ==================================== -->
           <!--
             Contact Us
-            ==================================== -->    
+            ==================================== -->
           <section id="contact" class="contact">
             <div class="container">
               <div class="row mb50">
