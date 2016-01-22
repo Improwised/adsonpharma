@@ -604,6 +604,10 @@ label.error {
     font-size: 40px;
     color: #00adef !important;
 }
+.product-title-4 {
+    font-size: 40px;
+    color: #62bb47 !important;
+}
 .display-inline {
     display: inline-block;
 }
@@ -626,6 +630,13 @@ label.error {
 }
 .heading-Effitus-CR {
     background-color: #00adef;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+}
+.heading-Effitus-Plus {
+    background-color: #62bb47;
     color: white;
     font-size: 18px;
     padding: 10px 10px;
@@ -741,12 +752,12 @@ label.error {
     color: green !important;
 }
 .team-member {
-    margin: 10px;
+    margin: 5px;
     /*width: 292.5px;*/
 }
 .flex {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
     flex-wrap: wrap;
 }
